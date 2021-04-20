@@ -1,0 +1,59 @@
+.main{
+	width: 60%;
+	margin: 10px auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 20px;
+}
+
+h1{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+progress[value]{
+	width: 250px;
+	height: 20px;
+}
+
+
+.progress-bar{
+    width: 10rem;
+    height: 0.5rem;
+    top: 50px;
+    left: 310px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.progress-bar-2{
+	transform: rotate(180deg);
+    width: 10rem;
+    height: 0.5rem;
+    top: 50px;
+    left: 755px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+#prayer1ProgressBarFull{
+	height: 0.5rem;
+    background: black;
+    width: 0%; 
+}
+
+#prayer2ProgressBarFull{
+/*	tranform: rotate();*/
+	height: 0.5rem;
+    background: white;
+    width: 0%; 
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 20%;
+	
+}
+
+
